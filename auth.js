@@ -114,7 +114,11 @@ router.get("/api", async (req, res) => {
           '',
           replyBody,
         ].join('\n');
-        const encodedMessage = Buffer.from(rawMessage).toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+        const encodedMessage = Buffer.from(rawMessage)
+          .toString('base64')
+          .replace(/\+/g, '-')
+          .replace(/\//g, '_')
+          .replace(/=+$/, '');
         await gmail.users.messages.send({
           userId: 'me',
           requestBody: {
