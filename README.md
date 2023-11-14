@@ -2,7 +2,7 @@
 
 ## Steps to run:
 1. Open postman or insomnia
-2. copy the project url provided above and use it as base url to run all the routes 
+2. copy the project url provided above and use it as base url to run the routes 
 
 ## Steps to install:
 
