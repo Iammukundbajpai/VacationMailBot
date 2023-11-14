@@ -9,7 +9,7 @@
 1. Clone the repo using  ```git clone https://github.com/Iammukundbajpai/VacationMailBot```
 2. Open the project in VS Code and install all the dependencies using ```npm install```
 3. Create a .env file and save PORT variable and Connect with Gmail API and get The Credentials.
-4. Once the dependencies are installed start the server using  ```npm start```
+4. Once the dependencies are installed start the server using  ```npm run server```
 
 Libraries and Technologies Used
 
